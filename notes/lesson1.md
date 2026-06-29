@@ -65,7 +65,7 @@ Angular CLI sẽ hỏi:
     Would you like to add Angular routing? → Yes
     Which stylesheet format would you like to use? → CSS
 
-Angular v22 mặc định:
+Angular mặc định:
 
 - Standalone Components
 - Vite build system
@@ -117,7 +117,7 @@ File Chức năng
 
 Component là **khối xây dựng cơ bản của Angular**.
 
-Angular v22 sử dụng **Standalone Component**, không cần sử dụng
+Angular sử dụng **Standalone Component**, không cần sử dụng
 `NgModule`.
 
 ## Ví dụ Component
