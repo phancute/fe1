@@ -8,5 +8,17 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css',
 })
 export class App {
-  title = 'my-app';
+  title = 'Hello from App Component'; // property -> {{ title }}
+  name = 'Angular';
+  age = 30;
+
+  // method -> event binding (click)
+  sayHello() {
+    alert('Hello from App Component');
+    console.log('Hello from App Component');
+  }
+
+  delete() {
+    console.log('Delete button clicked');
+  }
 }
