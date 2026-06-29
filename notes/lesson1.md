@@ -117,9 +117,6 @@ File Chức năng
 
 Component là **khối xây dựng cơ bản của Angular**.
 
-Angular sử dụng **Standalone Component**, không cần sử dụng
-`NgModule`.
-
 ## Ví dụ Component
 
 ### app.ts
@@ -220,7 +217,8 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-home",
   standalone: true,
-  template: `<h2>Trang Home</h2>`,
+  templateUrl: "./home.html",
+  styleUrl: "./home.css",
 })
 export class HomeComponent {}
 ```
@@ -229,7 +227,7 @@ export class HomeComponent {}
 
 # BÀI TẬP THỰC HÀNH
 
-## Bài 2
+## Bài 1
 
 Thay đổi nội dung trang chủ:
 
@@ -238,7 +236,7 @@ Thay đổi nội dung trang chủ:
 
 ---
 
-## Bài 3
+## Bài 2
 
 Tạo component mới tên:
 
@@ -250,7 +248,7 @@ Hiển thị nội dung:
 
 ---
 
-## Bài 4
+## Bài 3
 
 Tạo biến trong component:
 
@@ -273,7 +271,7 @@ Ví dụ:
 
 ---
 
-## Bài 5 (Nâng cao)
+## Bài 4 (Nâng cao)
 
 Tạo button:
 
