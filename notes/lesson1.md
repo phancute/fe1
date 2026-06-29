@@ -86,7 +86,7 @@ Mở trình duyệt:
 
 ---
 
-# 4. Cấu trúc project Angular v22
+# 4. Cấu trúc project Angular
 
 Cấu trúc project mặc định:
 
@@ -304,7 +304,7 @@ Trong buổi này bạn đã học:
 - Angular là gì
 - Cài đặt Angular CLI
 - Tạo project Angular
-- Cấu trúc project Angular v22
+- Cấu trúc project Angular
 - Component
 - Data Binding cơ bản
 
