@@ -19,6 +19,6 @@ export class AddStory {
   }
 
   submitForm() {
-    console.log('submitform');
+    console.log(this.addForm.value);
   }
 }
