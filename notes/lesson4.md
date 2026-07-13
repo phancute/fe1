@@ -50,9 +50,9 @@ export const routes: Routes = [
 ];
 ```
 
-## Để sử dụng Reactive Form cần import:
+## Để sử dụng Reactive Form cần import ReactiveFormsModule
 
-Ví dụ component AddStory:
+Component AddStory:
 
 ```ts
 import { Component } from "@angular/core";
@@ -176,10 +176,10 @@ Angular cung cấp nhiều Validators:
 | min       | Giá trị nhỏ nhất |
 | max       | Giá trị lớn nhất |
 
-## Ví dụ: Kiểm trả dữ liệu title là bắt buộc và độ dài > 3 ký tự, views lớn hơn 0
+## Ví dụ: Kiểm trả title bắt buộc và độ dài > 3 ký tự, views lớn hơn 0
 
 - Nhớ import Validators từ '@angular/forms'
-- Bổ sung thêm [] chứa Validators cần thiết cho title và views trong contructor của class AddStory
+- Bổ sung thêm mảng Array [] chứa Validators cần thiết cho title và views trong contructor class AddStory
 
 ```ts
 
@@ -199,7 +199,7 @@ Angular cung cấp nhiều Validators:
 
 Angular cho phép truy cập control bằng `get`:
 
-Ví dụ trong component:
+Trong Class AddStory bổ sung thêm method:
 
 ```ts
 get title() {
