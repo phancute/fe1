@@ -9,7 +9,7 @@
 
 ---
 
-## 1. Gọi API GET là gì?
+## 1. Gọi API GET là gì? Setup HttpClient
 
 - API GET dùng để **lấy dữ liệu từ server**
 - Không làm thay đổi dữ liệu
@@ -17,6 +17,18 @@
 Ví dụ:
 
 GET http://localhost:3000/stories
+
+## Setup HttpClient file app.config.ts
+
+- Thêm provideHttpClient trong providers
+
+```ts
+import { provideHttpClient } from "@angular/common/http";
+
+export const appConfig = {
+  providers: [provideBrowserGlobalErrorListeners(), provideRouter(routes), provideHttpClient()],
+};
+```
 
 ---
 
@@ -42,7 +54,7 @@ export class Stories {
   }
 
   getStories() {
-    this.http.get<any[]>("http://localhost:3000/stories").subscribe({
+    this.http.get("http://localhost:3000/stories").subscribe({
       next: (data) => {
         this.stories = data;
       },
