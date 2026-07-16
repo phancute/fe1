@@ -1,3 +1,95 @@
 {
-  "stories": []
+  "stories": [
+    {
+      "id": 1,
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "views": 100000
+    },
+    {
+      "id": 2,
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "views": 95000
+    },
+    {
+      "id": 3,
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "views": 88000
+    },
+    {
+      "id": 4,
+      "title": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "views": 120000
+    },
+    {
+      "id": 5,
+      "title": "Doraemon",
+      "author": "Fujiko F. Fujio",
+      "views": 92000
+    },
+    {
+      "id": 6,
+      "title": "Thám Tử Lừng Danh Conan",
+      "author": "Gosho Aoyama",
+      "views": 110000
+    },
+    {
+      "id": 7,
+      "title": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "views": 97000
+    },
+    {
+      "id": 8,
+      "title": "Demon Slayer",
+      "author": "Koyoharu Gotouge",
+      "views": 105000
+    },
+    {
+      "id": 9,
+      "title": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "views": 86000
+    },
+    {
+      "id": 10,
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "views": 78000
+    },
+    {
+      "id": 11,
+      "title": "Solo Leveling",
+      "author": "Chugong",
+      "views": 115000
+    },
+    {
+      "title": "bang khuang",
+      "id": 12
+    },
+    {
+      "title": "bang khuang",
+      "id": 13
+    },
+    {
+      "title": "",
+      "id": 14
+    },
+    {
+      "title": "phan dep trai",
+      "id": 15
+    },
+    {
+      "title": "phan dep trai",
+      "id": 16
+    },
+    {
+      "title": "phan anh",
+      "author": "dep trai",
+      "id": 17
+    }
+  ]
 }

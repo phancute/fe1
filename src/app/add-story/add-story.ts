@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
@@ -12,13 +13,28 @@ export class AddStory {
   addForm: FormGroup;
 
   // khoi tao form
-  constructor(private fb: FormBuilder) {
+  constructor(
+    private fb: FormBuilder,
+    private http: HttpClient,
+  ) {
     this.addForm = this.fb.group({
       title: '',
+      author: '',
+      views: 0,
     });
   }
 
   submitForm() {
     console.log(this.addForm.value);
+    this.http
+      .post('http://localhost:3000/stories', this.addForm.value)
+      .subscribe({
+        next: () => {
+           alert('them thanh cong');
+        },
+        error: () => {
+          alert('them that bai');
+        },
+      });
   }
 }
