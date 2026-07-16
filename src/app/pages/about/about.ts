@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './about.css',
 })
 export class About {
+<<<<<<< HEAD
 
 }
+=======
+  name = 'DInh Phan ANh';
+  age = 22;
+}
+>>>>>>> 3adbbfd0687d3c878eb2ae0f2b90b0887776c756
